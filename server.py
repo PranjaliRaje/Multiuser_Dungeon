@@ -330,6 +330,6 @@ class MudServer(object):
                 if ord(c) == self._TN_SUBNEGOTIATION_END:
                     state = self._READ_STATE_NORMAL
 
-        # return the contents of 'message' which is either a string or None
+        # return the contents of message which is either a string or None
         return message
 
