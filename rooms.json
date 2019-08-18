@@ -1,0 +1,74 @@
+{
+    "1": {
+        "description": "You are in chamber of secrets.",
+        "exits": {
+            "up": "7",
+            "east": "2"
+        },
+        "name": "Chamber of secrets"
+    },
+    "2": {
+        "description": "You are in Whomping willow",
+        "exits": {
+            
+            "west": "1",
+            "south": "4",
+			"up": "8"
+			
+        },
+        "name": "Whomping willow"
+    },
+    "4": {
+        "description": "You are in Hagrid's hut",
+        "exits": {
+            "north": "2",
+			"up":"10"
+			
+        },
+        "name": "Hagrid's hut"
+
+    },
+    "7": {
+        "description": "You are in room of requirements",
+        "exits": {
+            "east": "8",
+			"south": "9",
+			"down":"1"
+        },
+        "name": "Room of requirements"
+
+    },
+    "8": {
+        "description": "You are in astronomy room",
+        "exits": {
+            "south": "10",
+			"west":"7",
+			"down":"2"
+			
+        },
+        "name": "Astronomy room"
+
+    },
+    "9": {
+        "description": "You are in the great hall",
+        "exits": {
+            "north": "7",
+			"east":"10"
+        },
+        "name": "The great hall"
+
+    },
+	"10": {
+        "description": "You are in the shrieking shack",
+        "exits": {
+            "north": "8",
+			"down":"4",
+			"west":"9"
+			
+			
+        },
+        "name": "Shrieking shack"
+
+    }
+	}
+
